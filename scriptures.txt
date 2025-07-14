@@ -1,0 +1,7 @@
+14/07/25 Senin : Laravel library AI.
+# Get the API Key on Google AiStudio or any api is fine. Edit the $endpoint inside ChatController.php on a line that says generative... change it with generating output from openAI/Deepseek/Gemini.
+# $endpoint = 'https://api.deepseek.com/v1/generate'; // change this with
+# $endpoint = 'https://api.openai.com/v1/completions'; // change this with
+
+The array inside $faqs is not done yet, search faq keywords are not done yet. Restricting the LLM.
+
