@@ -3,5 +3,13 @@
 # $endpoint = 'https://api.deepseek.com/v1/generate'; // change this with
 # $endpoint = 'https://api.openai.com/v1/completions'; // change this with
 
-The array inside $faqs is not done yet, search faq keywords are not done yet. Restricting the LLM.
+The array inside $faqs is not done yet, search faq keywords are not done yet. Restricting the LLM. #14/07/2025
 
+
+[Progress date : 15/07/2025]
+# Drop down option for suggestion : done 
+# Trigger words : done 
+# Faqs and Layanan : done 
+
+# Migrate terlebih dahulu
+# Untuk seeding : "php artisan db:seed --class="LayananSeeder" dan "php artisan db:seed --class="FaqSeeder"
