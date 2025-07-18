@@ -1,0 +1,1514 @@
+[
+  {
+    "Layanan":"Kauter kecil",
+    "Harga":"Rp 165.000"
+  },
+  {
+    "Layanan":"Kauter sedang",
+    "Harga":"Rp 420.000"
+  },
+  {
+    "Layanan":"Kauter besar",
+    "Harga":"Rp 720.000"
+  },
+  {
+    "Layanan":"Injeksi Kenacort \/ Ganglion ke...",
+    "Harga":"Rp 150.000"
+  },
+  {
+    "Layanan":"Injeksi Kenacort \/ Ganglion be...",
+    "Harga":"Rp 300.000"
+  },
+  {
+    "Layanan":"Angkat Jahit",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Perawatan Luka",
+    "Harga":"Rp 55.000"
+  },
+  {
+    "Layanan":"Operasi kecil",
+    "Harga":"Rp 500.000"
+  },
+  {
+    "Layanan":"Operasi sedang",
+    "Harga":"Rp 1.000.000"
+  },
+  {
+    "Layanan":"Operasi besar (khusus)",
+    "Harga":"Rp 1.500.000"
+  },
+  {
+    "Layanan":"Ekspresi komedo",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Ekspresi muluscum contagiosum",
+    "Harga":"Rp 125.000"
+  },
+  {
+    "Layanan":"POLI - Konsultasi gizi",
+    "Harga":"Rp 35.000"
+  },
+  {
+    "Layanan":"Konsultasi Dokter Spesialis",
+    "Harga":"Rp 70.000"
+  },
+  {
+    "Layanan":"Aspirasi : RJ Emergency",
+    "Harga":"Rp 260.000"
+  },
+  {
+    "Layanan":"Aspirasi Sumsum Tulang : RJ Em...",
+    "Harga":"Rp 260.000"
+  },
+  {
+    "Layanan":"Biopsi jaringan : RJ Emergency",
+    "Harga":"Rp 195.000"
+  },
+  {
+    "Layanan":"Bowel Blader Training : RJ Eme...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Businasi Uretra : RJ Emergency",
+    "Harga":"Rp 156.000"
+  },
+  {
+    "Layanan":"CVP : RJ Emergency",
+    "Harga":"Rp 500.000"
+  },
+  {
+    "Layanan":"Debridement Luka Berat : RJ Em...",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Debridement Luka Ringan : RJ E...",
+    "Harga":"Rp 40.000"
+  },
+  {
+    "Layanan":"Debridement Luka Sedang : RJ E...",
+    "Harga":"Rp 80.000"
+  },
+  {
+    "Layanan":"Dilatasi Phymosis : RJ Emergen...",
+    "Harga":"Rp 51.000"
+  },
+  {
+    "Layanan":"Dry Needling\/Manipulatif Terap...",
+    "Harga":"Rp 65.000"
+  },
+  {
+    "Layanan":"Eksisi : RJ Emergency",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Ekstraksi Kuku : RJ Emergency",
+    "Harga":"Rp 156.000"
+  },
+  {
+    "Layanan":"Injeksi sendi\/ lokal C-Tan : R...",
+    "Harga":"Rp 227.500"
+  },
+  {
+    "Layanan":"Insisi racun gigitan binatang ...",
+    "Harga":"Rp 60.000"
+  },
+  {
+    "Layanan":"Inspeculo : RJ Emergency",
+    "Harga":"Rp 65.000"
+  },
+  {
+    "Layanan":"Lavemen \/ Lavase : RJ Emergenc...",
+    "Harga":"Rp 20.000"
+  },
+  {
+    "Layanan":"Lepas Kateter Dengan Penyulit ...",
+    "Harga":"Rp 52.000"
+  },
+  {
+    "Layanan":"Lepas Kateter Tanpa Penyulit :...",
+    "Harga":"Rp 21.000"
+  },
+  {
+    "Layanan":"Pasang Bidai Ekstremitas Atas ...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Pasang Bidai Ekstremitas Bawah...",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Pasang Cervix Collar : RJ Emer...",
+    "Harga":"Rp 20.000"
+  },
+  {
+    "Layanan":"Pasang Elastik Verban : RJ Eme...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Pasang Gips\/ Spalk : RJ Emerge...",
+    "Harga":"Rp 140.000"
+  },
+  {
+    "Layanan":"Pasang Kateter dengan Mandrin ...",
+    "Harga":"Rp 155.000"
+  },
+  {
+    "Layanan":"Pasang Kateter Pria Dengan Pen...",
+    "Harga":"Rp 130.000"
+  },
+  {
+    "Layanan":"Pasang Nelaton : RJ Emergency",
+    "Harga":"Rp 75.000"
+  },
+  {
+    "Layanan":"Pasang Ransel Verban : RJ Emer...",
+    "Harga":"Rp 120.000"
+  },
+  {
+    "Layanan":"Pasang Tampon Vagina : RJ Emer...",
+    "Harga":"Rp 52.000"
+  },
+  {
+    "Layanan":"Pemeriksaan Dalam : RJ Emergen...",
+    "Harga":"Rp 65.000"
+  },
+  {
+    "Layanan":"Pemeriksaan gula darah acak (G...",
+    "Harga":"Rp 40.000"
+  },
+  {
+    "Layanan":"Pengambilan Spesimen Darah : R...",
+    "Harga":"Rp 40.000"
+  },
+  {
+    "Layanan":"Pengobatan Luka Dengan Jahitan...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Pengobatan Luka Diabetikum Bes...",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Pengobatan Luka Diabetikum Bes...",
+    "Harga":"Rp 200.000"
+  },
+  {
+    "Layanan":"Pengobatan Luka Diabetikum Kec...",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Pengobatan Luka Diabetikum Kec...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Pengukuran Residual Urin : RJ ...",
+    "Harga":"Rp 40.000"
+  },
+  {
+    "Layanan":"Perawatan Luka Bakar <10% : RJ...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Perawatan Luka Bakar >30% : RJ...",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Perawatan Luka Bakar 10% - 30%...",
+    "Harga":"Rp 75.000"
+  },
+  {
+    "Layanan":"Perawatan Luka Berat : RJ Emer...",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Perawatan Luka Ringan : RJ Eme...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Perawatan Luka Sedang : RJ Eme...",
+    "Harga":"Rp 75.000"
+  },
+  {
+    "Layanan":"Phlebotomy : RJ Emergency",
+    "Harga":"Rp 52.000"
+  },
+  {
+    "Layanan":"Pungsi Lutut\/sendi : RJ Emerge...",
+    "Harga":"Rp 585.000"
+  },
+  {
+    "Layanan":"Pungsi Pleura\/ Biopsi Pleura :...",
+    "Harga":"Rp 312.000"
+  },
+  {
+    "Layanan":"Punksi Abdomen : RJ Emergency",
+    "Harga":"Rp 282.000"
+  },
+  {
+    "Layanan":"Punksi Blast : RJ Emergency",
+    "Harga":"Rp 155.000"
+  },
+  {
+    "Layanan":"Punksi Lutut Haemathras : RJ E...",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Rawat Jenasah Non Infeksius : ...",
+    "Harga":"Rp 80.000"
+  },
+  {
+    "Layanan":"Rectal Toucher : RJ Emergency",
+    "Harga":"Rp 30.000"
+  },
+  {
+    "Layanan":"Reduksi Tertutup + Finger Spli...",
+    "Harga":"Rp 60.000"
+  },
+  {
+    "Layanan":"Rekam ECG + Print : RJ Emergen...",
+    "Harga":"Rp 110.000"
+  },
+  {
+    "Layanan":"Reposisi Dislokasi Humerus : R...",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Reposisi Dislokasi Rahang : RJ...",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Sirkumsisi Dokter Umum : RJ Em...",
+    "Harga":"Rp 500.000"
+  },
+  {
+    "Layanan":"Terapi Suppositoria : RJ Emerg...",
+    "Harga":"Rp 40.000"
+  },
+  {
+    "Layanan":"Vaginal Toucher : RJ Emergency",
+    "Harga":"Rp 30.000"
+  },
+  {
+    "Layanan":"Vibrasi Breathing Exc.Postural...",
+    "Harga":"Rp 65.000"
+  },
+  {
+    "Layanan":"Wound Toilet : RJ Emergency",
+    "Harga":"Rp 20.000"
+  },
+  {
+    "Layanan":"Aspirasi : RJ Reguler",
+    "Harga":"Rp 200.000"
+  },
+  {
+    "Layanan":"Aspirasi Sumsum Tulang : RJ Re...",
+    "Harga":"Rp 200.000"
+  },
+  {
+    "Layanan":"Biopsi jaringan : RJ Reguler",
+    "Harga":"Rp 150.000"
+  },
+  {
+    "Layanan":"Bowel Blader Training : RJ Reg...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Businasi Uretra : RJ Reguler",
+    "Harga":"Rp 120.000"
+  },
+  {
+    "Layanan":"CVP : RJ Reguler",
+    "Harga":"Rp 450.000"
+  },
+  {
+    "Layanan":"Debridement Luka Berat : RJ Re...",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Debridement Luka Ringan : RJ R...",
+    "Harga":"Rp 40.000"
+  },
+  {
+    "Layanan":"Debridement Luka Sedang : RJ R...",
+    "Harga":"Rp 80.000"
+  },
+  {
+    "Layanan":"Dilatasi Phymosis : RJ Reguler",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Dry Needling\/Manipulatif Terap...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Eksisi : RJ Reguler",
+    "Harga":"Rp 76.923"
+  },
+  {
+    "Layanan":"Ekstraksi Kuku : RJ Reguler",
+    "Harga":"Rp 120.000"
+  },
+  {
+    "Layanan":"Holter (EKG 24 Jam) : RJ Regul...",
+    "Harga":"Rp 400.000"
+  },
+  {
+    "Layanan":"Incisi Abses : RJ Reguler",
+    "Harga":"Rp 350.000"
+  },
+  {
+    "Layanan":"Injeksi sendi\/ lokal C-Tan : R...",
+    "Harga":"Rp 175.000"
+  },
+  {
+    "Layanan":"Insisi racun gigitan binatang ...",
+    "Harga":"Rp 46.154"
+  },
+  {
+    "Layanan":"Inspeculo : RJ Reguler",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Komplikasi Ekstraksi : RJ Regu...",
+    "Harga":"Rp 500.000"
+  },
+  {
+    "Layanan":"Lavemen \/ Lavase : RJ Reguler",
+    "Harga":"Rp 15.385"
+  },
+  {
+    "Layanan":"Lepas Kateter Dengan Penyulit ...",
+    "Harga":"Rp 40.000"
+  },
+  {
+    "Layanan":"Lepas Kateter Tanpa Penyulit :...",
+    "Harga":"Rp 16.154"
+  },
+  {
+    "Layanan":"Lepas Ngt : RJ Reguler",
+    "Harga":"Rp 20.000"
+  },
+  {
+    "Layanan":"Pasang Bidai Ekstremitas Atas ...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Pasang Bidai Ekstremitas Bawah...",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Pasang Cervix Collar : RJ Regu...",
+    "Harga":"Rp 15.385"
+  },
+  {
+    "Layanan":"Pasang Elastik Verban : RJ Reg...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Pasang Gips\/ Spalk : RJ Regule...",
+    "Harga":"Rp 150.000"
+  },
+  {
+    "Layanan":"Pasang Kateter dengan Mandrin ...",
+    "Harga":"Rp 250.000"
+  },
+  {
+    "Layanan":"Pasang Kateter Pria Dengan Pen...",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Pasang Nelaton : RJ Reguler",
+    "Harga":"Rp 57.692"
+  },
+  {
+    "Layanan":"Pasang Ransel Verban : RJ Regu...",
+    "Harga":"Rp 195.000"
+  },
+  {
+    "Layanan":"Pasang Tampon Vagina : RJ Regu...",
+    "Harga":"Rp 40.000"
+  },
+  {
+    "Layanan":"Pemeriksaan Dalam : RJ Reguler",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Pemeriksaan gula darah acak (G...",
+    "Harga":"Rp 35.000"
+  },
+  {
+    "Layanan":"Pengambilan Spesimen Darah : R...",
+    "Harga":"Rp 30.769"
+  },
+  {
+    "Layanan":"Pengobatan Luka Dengan Jahitan...",
+    "Harga":"Rp 38.462"
+  },
+  {
+    "Layanan":"Pengobatan Luka Diabetikum Bes...",
+    "Harga":"Rp 76.923"
+  },
+  {
+    "Layanan":"Pengobatan Luka Diabetikum Bes...",
+    "Harga":"Rp 153.846"
+  },
+  {
+    "Layanan":"Pengobatan Luka Diabetikum Kec...",
+    "Harga":"Rp 76.923"
+  },
+  {
+    "Layanan":"Pengobatan Luka Diabetikum Kec...",
+    "Harga":"Rp 38.462"
+  },
+  {
+    "Layanan":"Pengukuran Residual Urin : RJ ...",
+    "Harga":"Rp 30.769"
+  },
+  {
+    "Layanan":"Perawatan Luka Bakar <10% : RJ...",
+    "Harga":"Rp 38.462"
+  },
+  {
+    "Layanan":"Perawatan Luka Bakar >30% : RJ...",
+    "Harga":"Rp 76.923"
+  },
+  {
+    "Layanan":"Perawatan Luka Bakar 10% - 30%...",
+    "Harga":"Rp 57.692"
+  },
+  {
+    "Layanan":"Perawatan Luka Berat : RJ Regu...",
+    "Harga":"Rp 76.923"
+  },
+  {
+    "Layanan":"Perawatan Luka Ringan : RJ Reg...",
+    "Harga":"Rp 38.462"
+  },
+  {
+    "Layanan":"Perawatan Luka Sedang : RJ Reg...",
+    "Harga":"Rp 57.692"
+  },
+  {
+    "Layanan":"Phlebotomy : RJ Reguler",
+    "Harga":"Rp 40.000"
+  },
+  {
+    "Layanan":"Pungsi Lutut\/sendi : RJ Regule...",
+    "Harga":"Rp 450.000"
+  },
+  {
+    "Layanan":"Pungsi Pleura\/ Biopsi Pleura :...",
+    "Harga":"Rp 312.000"
+  },
+  {
+    "Layanan":"Punksi Abdomen : RJ Reguler",
+    "Harga":"Rp 216.923"
+  },
+  {
+    "Layanan":"Punksi Blast : RJ Reguler",
+    "Harga":"Rp 250.000"
+  },
+  {
+    "Layanan":"Punksi Lutut Haemathras : RJ R...",
+    "Harga":"Rp 450.000"
+  },
+  {
+    "Layanan":"Rawat Jenasah Non Infeksius : ...",
+    "Harga":"Rp 80.000"
+  },
+  {
+    "Layanan":"Rectal Toucher : RJ Reguler",
+    "Harga":"Rp 23.077"
+  },
+  {
+    "Layanan":"Reduksi Tertutup + Finger Spli...",
+    "Harga":"Rp 60.000"
+  },
+  {
+    "Layanan":"Rekam ECG + Print : RJ Reguler",
+    "Harga":"Rp 84.615"
+  },
+  {
+    "Layanan":"Reposisi Dislokasi Humerus : R...",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Reposisi Dislokasi Rahang : RJ...",
+    "Harga":"Rp 76.923"
+  },
+  {
+    "Layanan":"Setting Ventilator : RJ Regule...",
+    "Harga":"Rp 500.000"
+  },
+  {
+    "Layanan":"Sinar Biru\/Blt Single\/Fototera...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Sirkumsisi Dokter Umum : RJ Re...",
+    "Harga":"Rp 500.000"
+  },
+  {
+    "Layanan":"Terapi Suppositoria : RJ Regul...",
+    "Harga":"Rp 30.769"
+  },
+  {
+    "Layanan":"Vaginal Toucher : RJ Reguler",
+    "Harga":"Rp 23.077"
+  },
+  {
+    "Layanan":"Vena Seksi : RJ Reguler",
+    "Harga":"Rp 425.000"
+  },
+  {
+    "Layanan":"Vibrasi Breathing Exc.Postural...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Wound Toilet : RJ Reguler",
+    "Harga":"Rp 15.385"
+  },
+  {
+    "Layanan":"Aspirasi Sumsum Tulang : RJ Ek...",
+    "Harga":"Rp 250.000"
+  },
+  {
+    "Layanan":"Biopsi jaringan : RJ Eksekutif",
+    "Harga":"Rp 187.500"
+  },
+  {
+    "Layanan":"Bowel Blader Training : RJ Eks...",
+    "Harga":"Rp 62.500"
+  },
+  {
+    "Layanan":"Businasi Uretra : RJ Eksekutif",
+    "Harga":"Rp 150.000"
+  },
+  {
+    "Layanan":"Debridement Luka Berat : RJ Ek...",
+    "Harga":"Rp 125.000"
+  },
+  {
+    "Layanan":"Debridement Luka Ringan : RJ E...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Debridement Luka Sedang : RJ E...",
+    "Harga":"Rp 100.000"
+  },
+  {
+    "Layanan":"Dilatasi Phymosis : RJ Eksekut...",
+    "Harga":"Rp 125.000"
+  },
+  {
+    "Layanan":"Dry Needling\/Manipulatif Terap...",
+    "Harga":"Rp 62.500"
+  },
+  {
+    "Layanan":"Eksisi : RJ Eksekutif",
+    "Harga":"Rp 96.154"
+  },
+  {
+    "Layanan":"Ekstraksi Kuku : RJ Eksekutif",
+    "Harga":"Rp 150.000"
+  },
+  {
+    "Layanan":"Holter (EKG 24 Jam) : RJ Eksek...",
+    "Harga":"Rp 500.000"
+  },
+  {
+    "Layanan":"Incisi Abses : RJ Eksekutif",
+    "Harga":"Rp 437.500"
+  },
+  {
+    "Layanan":"Injeksi sendi\/ lokal C-Tan : R...",
+    "Harga":"Rp 218.750"
+  },
+  {
+    "Layanan":"Inspeculo : RJ Eksekutif",
+    "Harga":"Rp 62.500"
+  },
+  {
+    "Layanan":"Komplikasi Ekstraksi : RJ Ekse...",
+    "Harga":"Rp 625.000"
+  },
+  {
+    "Layanan":"Lepas Kateter Dengan Penyulit ...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Lepas Kateter Tanpa Penyulit :...",
+    "Harga":"Rp 20.192"
+  },
+  {
+    "Layanan":"Lepas Ngt : RJ Eksekutif",
+    "Harga":"Rp 25.000"
+  },
+  {
+    "Layanan":"Pasang Bidai Ekstremitas Atas ...",
+    "Harga":"Rp 62.500"
+  },
+  {
+    "Layanan":"Pasang Bidai Ekstremitas Bawah...",
+    "Harga":"Rp 125.000"
+  },
+  {
+    "Layanan":"Pasang Cervix Collar : RJ Ekse...",
+    "Harga":"Rp 19.231"
+  },
+  {
+    "Layanan":"Pasang Elastik Verban : RJ Eks...",
+    "Harga":"Rp 62.500"
+  },
+  {
+    "Layanan":"Pasang Gips\/ Spalk : RJ Ekseku...",
+    "Harga":"Rp 187.500"
+  },
+  {
+    "Layanan":"Pasang Kateter dengan Mandrin ...",
+    "Harga":"Rp 312.500"
+  },
+  {
+    "Layanan":"Pasang Kateter Pria Dengan Pen...",
+    "Harga":"Rp 125.000"
+  },
+  {
+    "Layanan":"Pasang Nelaton : RJ Eksekutif",
+    "Harga":"Rp 72.115"
+  },
+  {
+    "Layanan":"Pasang Ransel Verban : RJ Ekse...",
+    "Harga":"Rp 243.750"
+  },
+  {
+    "Layanan":"Pasang Tampon Vagina : RJ Ekse...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Pemeriksaan Dalam : RJ Eksekut...",
+    "Harga":"Rp 62.500"
+  },
+  {
+    "Layanan":"Pemeriksaan gula darah acak (G...",
+    "Harga":"Rp 43.750"
+  },
+  {
+    "Layanan":"Pengambilan Spesimen Darah : R...",
+    "Harga":"Rp 38.462"
+  },
+  {
+    "Layanan":"Pengobatan Luka Diabetikum Bes...",
+    "Harga":"Rp 192.308"
+  },
+  {
+    "Layanan":"Pengobatan Luka Diabetikum Kec...",
+    "Harga":"Rp 96.154"
+  },
+  {
+    "Layanan":"Pengukuran Residual Urin : RJ ...",
+    "Harga":"Rp 38.462"
+  },
+  {
+    "Layanan":"Perawatan Luka Bakar <10% : RJ...",
+    "Harga":"Rp 48.077"
+  },
+  {
+    "Layanan":"Perawatan Luka Bakar >30% : RJ...",
+    "Harga":"Rp 96.154"
+  },
+  {
+    "Layanan":"Perawatan Luka Bakar 10% - 30%...",
+    "Harga":"Rp 72.115"
+  },
+  {
+    "Layanan":"Perawatan Luka Berat : RJ Ekse...",
+    "Harga":"Rp 96.154"
+  },
+  {
+    "Layanan":"Perawatan Luka Ringan : RJ Eks...",
+    "Harga":"Rp 48.077"
+  },
+  {
+    "Layanan":"Perawatan Luka Sedang : RJ Eks...",
+    "Harga":"Rp 72.115"
+  },
+  {
+    "Layanan":"Phlebotomy : RJ Eksekutif",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Pungsi Lutut\/sendi : RJ Ekseku...",
+    "Harga":"Rp 562.500"
+  },
+  {
+    "Layanan":"Pungsi Pleura\/ Biopsi Pleura :...",
+    "Harga":"Rp 390.000"
+  },
+  {
+    "Layanan":"Punksi Abdomen : RJ Eksekutif",
+    "Harga":"Rp 271.154"
+  },
+  {
+    "Layanan":"Punksi Blast : RJ Eksekutif",
+    "Harga":"Rp 312.500"
+  },
+  {
+    "Layanan":"Punksi Lutut Haemathras : RJ E...",
+    "Harga":"Rp 562.500"
+  },
+  {
+    "Layanan":"Rectal Toucher : RJ Eksekutif",
+    "Harga":"Rp 28.846"
+  },
+  {
+    "Layanan":"Reduksi Tertutup + Finger Spli...",
+    "Harga":"Rp 75.000"
+  },
+  {
+    "Layanan":"Rekam ECG + Print : RJ Eksekut...",
+    "Harga":"Rp 105.769"
+  },
+  {
+    "Layanan":"Reposisi Dislokasi Humerus : R...",
+    "Harga":"Rp 125.000"
+  },
+  {
+    "Layanan":"Terapi Suppositoria : RJ Eksek...",
+    "Harga":"Rp 38.462"
+  },
+  {
+    "Layanan":"Vaginal Toucher : RJ Eksekutif",
+    "Harga":"Rp 28.846"
+  },
+  {
+    "Layanan":"Vibrasi Breathing Exc.Postural...",
+    "Harga":"Rp 62.500"
+  },
+  {
+    "Layanan":"Ekspresi komedo : RJ Reguler",
+    "Harga":"Rp 250.000"
+  },
+  {
+    "Layanan":"Ekspresi muluscum contagiosum ...",
+    "Harga":"Rp 300.000"
+  },
+  {
+    "Layanan":"Injeksi Intracutan \/ Subcutan ...",
+    "Harga":"Rp 50.000"
+  },
+  {
+    "Layanan":"Injeksi Keloid Besar : RJ Regu...",
+    "Harga":"Rp 300.000"
+  },
+  {
+    "Layanan":"Injeksi Keloid Kecil : RJ Regu...",
+    "Harga":"Rp 150.000"
+  },
+  {
+    "Layanan":"Injeksi Keloid Sedang : RJ Reg...",
+    "Harga":"Rp 225.000"
+  },
+  {
+    "Layanan":"Injeksi Kenacort \/ Ganglion Be...",
+    "Harga":"Rp 300.000"
+  },
+  {
+    "Layanan":"Injeksi Kenacort \/ Ganglion Ke...",
+    "Harga":"Rp 150.000"
+  },
+  {
+    "Layanan":"Konsultasi Estetika : RJ Regul...",
+    "Harga":"Rp 120.000"
+  },
+  {
+    "Layanan":"Konsultasi Kecantikan : RJ Reg...",
+    "Harga":"Rp 120.000"
+  },
+  {
+    "Layanan":"Tindakan Kauterisasi Kecil : R...",
+    "Harga":"Rp 250.000"
+  },
+  {
+    "Layanan":"Ekspresi komedo : RJ Eksekutif",
+    "Harga":"Rp 312.500"
+  },
+  {
+    "Layanan":"Ekspresi muluscum contagiosum ...",
+    "Harga":"Rp 375.000"
+  },
+  {
+    "Layanan":"Injeksi Intracutan \/ Subcutan ...",
+    "Harga":"Rp 62.500"
+  },
+  {
+    "Layanan":"Injeksi Keloid Besar : RJ Ekse...",
+    "Harga":"Rp 375.000"
+  },
+  {
+    "Layanan":"Injeksi Keloid Kecil : RJ Ekse...",
+    "Harga":"Rp 187.500"
+  },
+  {
+    "Layanan":"Injeksi Keloid Sedang : RJ Eks...",
+    "Harga":"Rp 281.250"
+  },
+  {
+    "Layanan":"Injeksi Kenacort \/ Ganglion Be...",
+    "Harga":"Rp 375.000"
+  },
+  {
+    "Layanan":"Injeksi Kenacort \/ Ganglion Ke...",
+    "Harga":"Rp 187.500"
+  },
+  {
+    "Layanan":"Konsultasi Estetika : RJ Eksek...",
+    "Harga":"Rp 150.000"
+  },
+  {
+    "Layanan":"Konsultasi Kecantikan : RJ Eks...",
+    "Harga":"Rp 150.000"
+  },
+  {
+    "Layanan":"Tindakan Kauterisasi Kecil : R...",
+    "Harga":"Rp 312.500"
+  },
+  {
+    "Layanan":"Bronchial wash dengan broncosc...",
+    "Harga":"Rp 2.600.000"
+  },
+  {
+    "Layanan":"Skin Prick Test (Spt) Aerofood...",
+    "Harga":"Rp 1.625.000"
+  },
+  {
+    "Layanan":"Tindakan Kuretase dengan Penyu...",
+    "Harga":"Rp 1.950.000"
+  },
+  {
+    "Layanan":"WSD Sesuai Bedah : RJ Emergenc...",
+    "Harga":"Rp 2.600.000"
+  },
+  {
+    "Layanan":"Bronchial wash dengan broncosc...",
+    "Harga":"Rp 2.000.000"
+  },
+  {
+    "Layanan":"Injeksi Intra Artikuler \/ Intr...",
+    "Harga":"Rp 560.000"
+  },
+  {
+    "Layanan":"Lumbal Pungsi : RJ Reguler",
+    "Harga":"Rp 800.000"
+  },
+  {
+    "Layanan":"Skin Prick Test (Spt) Aerofood...",
+    "Harga":"Rp 1.250.000"
+  },
+  {
+    "Layanan":"Tindakan Kuretase dengan Penyu...",
+    "Harga":"Rp 1.500.000"
+  },
+  {
+    "Layanan":"WSD Sesuai Bedah : RJ Reguler",
+    "Harga":"Rp 2.000.000"
+  },
+  {
+    "Layanan":"Injeksi Intra Artikuler \/ Intr...",
+    "Harga":"Rp 700.000"
+  },
+  {
+    "Layanan":"Lumbal Pungsi : RJ Eksekutif",
+    "Harga":"Rp 1.000.000"
+  },
+  {
+    "Layanan":"Skin Prick Test (Spt) Aerofood...",
+    "Harga":"Rp 1.562.000"
+  },
+  {
+    "Layanan":"Intubasi endotracheal : RJ Eme...",
+    "Harga":"Rp 1.560.000"
+  },
+  {
+    "Layanan":"Pasang cateter Arterial line d...",
+    "Harga":"Rp 1.560.000"
+  },
+  {
+    "Layanan":"Pasang central venous cateter ...",
+    "Harga":"Rp 1.560.000"
+  },
+  {
+    "Layanan":"Pasang double lumen dengan lok...",
+    "Harga":"Rp 1.560.000"
+  },
+  {
+    "Layanan":"Pasang kateter Swan Ganz denga...",
+    "Harga":"Rp 2.340.000"
+  },
+  {
+    "Layanan":"Resusitasi jantung paru di rua...",
+    "Harga":"Rp 1.560.000"
+  },
+  {
+    "Layanan":"Tindakan Sedasi\/Anestesi Dilua...",
+    "Harga":"Rp 1.300.000"
+  },
+  {
+    "Layanan":"Intrathecal Labor Analgesia : ...",
+    "Harga":"Rp 1.950.000"
+  },
+  {
+    "Layanan":"Patient Controlled Analgesia S...",
+    "Harga":"Rp 1.950.000"
+  },
+  {
+    "Layanan":"Pemasangan epidural catheter c...",
+    "Harga":"Rp 1.950.000"
+  },
+  {
+    "Layanan":"Pemasangan intrathecal cathete...",
+    "Harga":"Rp 1.950.000"
+  },
+  {
+    "Layanan":"pemasangan kateter blok saraf ...",
+    "Harga":"Rp 1.950.000"
+  },
+  {
+    "Layanan":"Systemic Analgesia : RJ Emerge...",
+    "Harga":"Rp 1.950.000"
+  },
+  {
+    "Layanan":"Intubasi endotracheal : RJ Reg...",
+    "Harga":"Rp 1.200.000"
+  },
+  {
+    "Layanan":"Pasang cateter Arterial line d...",
+    "Harga":"Rp 1.200.000"
+  },
+  {
+    "Layanan":"Pasang central venous cateter ...",
+    "Harga":"Rp 1.200.000"
+  },
+  {
+    "Layanan":"Pasang double lumen dengan lok...",
+    "Harga":"Rp 1.200.000"
+  },
+  {
+    "Layanan":"Pasang kateter Swan Ganz denga...",
+    "Harga":"Rp 1.800.000"
+  },
+  {
+    "Layanan":"Resusitasi jantung paru di rua...",
+    "Harga":"Rp 1.200.000"
+  },
+  {
+    "Layanan":"Tindakan Sedasi\/Anestesi Dilua...",
+    "Harga":"Rp 1.000.000"
+  },
+  {
+    "Layanan":"Intrathecal Labor Analgesia : ...",
+    "Harga":"Rp 1.500.000"
+  },
+  {
+    "Layanan":"Patient Controlled Analgesia S...",
+    "Harga":"Rp 1.500.000"
+  },
+  {
+    "Layanan":"Pemasangan epidural catheter c...",
+    "Harga":"Rp 1.500.000"
+  },
+  {
+    "Layanan":"Pemasangan intrathecal cathete...",
+    "Harga":"Rp 1.500.000"
+  },
+  {
+    "Layanan":"pemasangan kateter blok saraf ...",
+    "Harga":"Rp 1.500.000"
+  },
+  {
+    "Layanan":"Systemic Analgesia : RJ Regule...",
+    "Harga":"Rp 1.500.000"
+  },
+  {
+    "Layanan":"Blok saraf dengan penuntun C-A...",
+    "Harga":"Rp 1.500.000"
+  },
+  {
+    "Layanan":"injeksi epidural, intralaminer...",
+    "Harga":"Rp 1.500.000"
+  },
+  {
+    "Layanan":"injeksi epidural, intralaminer...",
+    "Harga":"Rp 1.000.000"
+  },
+  {
+    "Layanan":"Radiofrekuensi ablation pada s...",
+    "Harga":"Rp 2.500.000"
+  },
+  {
+    "Layanan":"Intrathecal Labor Analgesia : ...",
+    "Harga":"Rp 1.875.000"
+  },
+  {
+    "Layanan":"Patient Controlled Analgesia S...",
+    "Harga":"Rp 1.875.000"
+  },
+  {
+    "Layanan":"Pemasangan epidural catheter c...",
+    "Harga":"Rp 1.875.000"
+  },
+  {
+    "Layanan":"Pemasangan intrathecal cathete...",
+    "Harga":"Rp 1.875.000"
+  },
+  {
+    "Layanan":"pemasangan kateter blok saraf ...",
+    "Harga":"Rp 1.875.000"
+  },
+  {
+    "Layanan":"Systemic Analgesia : RJ Ekseku...",
+    "Harga":"Rp 1.875.000"
+  },
+  {
+    "Layanan":"Blok saraf dengan penuntun C-A...",
+    "Harga":"Rp 1.875.000"
+  },
+  {
+    "Layanan":"injeksi epidural, intralaminer...",
+    "Harga":"Rp 1.875.000"
+  },
+  {
+    "Layanan":"injeksi epidural, intralaminer...",
+    "Harga":"Rp 1.250.000"
+  },
+  {
+    "Layanan":"Radiofrekuensi ablation pada s...",
+    "Harga":"Rp 3.125.000"
+  },
+  {
+    "Layanan":"Tindakan Kauterisasi Besar : R...",
+    "Harga":"Rp 900.000"
+  },
+  {
+    "Layanan":"Tindakan Kauterisasi Sedang : ...",
+    "Harga":"Rp 600.000"
+  },
+  {
+    "Layanan":"Tindakan Kauterisasi Besar : R...",
+    "Harga":"Rp 1.125.000"
+  },
+  {
+    "Layanan":"Tindakan Kauterisasi Sedang : ...",
+    "Harga":"Rp 750.000"
+  },
+  {
+    "Layanan":"Pemasangan CAPD : RJ Emergency",
+    "Harga":"Rp 9.100.000"
+  },
+  {
+    "Layanan":"Revisi Set CAPD : RJ Emergency",
+    "Harga":"Rp 7.020.000"
+  },
+  {
+    "Layanan":"Thalasemia (Anti Hemofilia Fak...",
+    "Harga":"Rp 5.682.300"
+  },
+  {
+    "Layanan":"Injeksi Haemongioma LA : RJ Re...",
+    "Harga":"Rp 4.400.000"
+  },
+  {
+    "Layanan":"Pemasangan CAPD : RJ Reguler",
+    "Harga":"Rp 7.000.000"
+  },
+  {
+    "Layanan":"Revisi Set CAPD : RJ Reguler",
+    "Harga":"Rp 5.400.000"
+  },
+  {
+    "Layanan":"Baloncatheter \/ Dilatasi : RJ ...",
+    "Harga":"Rp 10.500.000"
+  },
+  {
+    "Layanan":"Kolonoscopy therapeutic : RJ R...",
+    "Harga":"Rp 10.350.000"
+  },
+  {
+    "Layanan":"Checmical Peeling Acne : RJ Re...",
+    "Harga":"Rp 330.000"
+  },
+  {
+    "Layanan":"Checmical Peeling Acne : RJ Ek...",
+    "Harga":"Rp 412.500"
+  },
+  {
+    "Layanan":"Checmical Peeling Anti Aging :...",
+    "Harga":"Rp 330.000"
+  },
+  {
+    "Layanan":"Checmical Peeling Anti Aging :...",
+    "Harga":"Rp 412.500"
+  },
+  {
+    "Layanan":"Checmical Peeling Brightening ...",
+    "Harga":"Rp 385.000"
+  },
+  {
+    "Layanan":"Checmical Peeling Brightening ...",
+    "Harga":"Rp 481.250"
+  },
+  {
+    "Layanan":"Fototerapi : RJ Reguler",
+    "Harga":"Rp 114.400"
+  },
+  {
+    "Layanan":"Fototerapi : RJ Eksekutif",
+    "Harga":"Rp 143.000"
+  },
+  {
+    "Layanan":"Skin Booster Biasa : RJ Ekseku...",
+    "Harga":"Rp 1.732.500"
+  },
+  {
+    "Layanan":"Skin Booster Biasa : RJ Regule...",
+    "Harga":"Rp 1.386.000"
+  },
+  {
+    "Layanan":"Microneedling tanpa Serum : RJ...",
+    "Harga":"Rp 495.000"
+  },
+  {
+    "Layanan":"Microneedling tanpa Serum : RJ...",
+    "Harga":"Rp 618.750"
+  },
+  {
+    "Layanan":"Microneedling dengan Serum : R...",
+    "Harga":"Rp 825.000"
+  },
+  {
+    "Layanan":"Microneedling dengan Serum : R...",
+    "Harga":"Rp 1.031.250"
+  },
+  {
+    "Layanan":"Chemical Peeling Acne Biasa : ...",
+    "Harga":"Rp 341.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Acne Biasa : ...",
+    "Harga":"Rp 426.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Anti Aging Bi...",
+    "Harga":"Rp 426.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Anti Aging Bi...",
+    "Harga":"Rp 341.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Brightening B...",
+    "Harga":"Rp 396.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Brightening B...",
+    "Harga":"Rp 495.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Acne Biasa Ta...",
+    "Harga":"Rp 230.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Acne Biasa Ta...",
+    "Harga":"Rp 288.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Anti Aging Bi...",
+    "Harga":"Rp 230.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Anti Aging Bi...",
+    "Harga":"Rp 288.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Brightening B...",
+    "Harga":"Rp 285.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Brightening B...",
+    "Harga":"Rp 356.000"
+  },
+  {
+    "Layanan":"Hydra Facial Standar Biasa : R...",
+    "Harga":"Rp 400.500"
+  },
+  {
+    "Layanan":"Hydra Facial Standar Biasa : R...",
+    "Harga":"Rp 500.100"
+  },
+  {
+    "Layanan":"Hydra Facial Standar Biasa tan...",
+    "Harga":"Rp 345.000"
+  },
+  {
+    "Layanan":"Hydra Facial Standar Biasa tan...",
+    "Harga":"Rp 431.000"
+  },
+  {
+    "Layanan":"Hydra Facial Standar Premium t...",
+    "Harga":"Rp 445.000"
+  },
+  {
+    "Layanan":"Hydra Facial Standar Premium t...",
+    "Harga":"Rp 556.000"
+  },
+  {
+    "Layanan":"Microneedling Biasa tanpa Seru...",
+    "Harga":"Rp 51.500"
+  },
+  {
+    "Layanan":"Microneedling Biasa tanpa Seru...",
+    "Harga":"Rp 639.000"
+  },
+  {
+    "Layanan":"Microneedling Biasa dengan Ser...",
+    "Harga":"Rp 844.500"
+  },
+  {
+    "Layanan":"Microneedling Biasa dengan Ser...",
+    "Harga":"Rp 1.056.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Acne Premium ...",
+    "Harga":"Rp 968.500"
+  },
+  {
+    "Layanan":"Chemical Peeling Acne Premium ...",
+    "Harga":"Rp 1.211.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Anti Aging Pr...",
+    "Harga":"Rp 968.500"
+  },
+  {
+    "Layanan":"Chemical Peeling Anti Aging Pr...",
+    "Harga":"Rp 1.211.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Brightening P...",
+    "Harga":"Rp 1.023.500"
+  },
+  {
+    "Layanan":"Chemical Peeling Brightening P...",
+    "Harga":"Rp 1.279.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Acne Premium ...",
+    "Harga":"Rp 580.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Acne Premium ...",
+    "Harga":"Rp 725.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Anti Aging Pr...",
+    "Harga":"Rp 580.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Anti Aging Pr...",
+    "Harga":"Rp 725.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Brightening P...",
+    "Harga":"Rp 635.000"
+  },
+  {
+    "Layanan":"Chemical Peeling Brightening P...",
+    "Harga":"Rp 794.000"
+  },
+  {
+    "Layanan":"Skin Booster Biasa tanpa BHP :...",
+    "Harga":"Rp 720.000"
+  },
+  {
+    "Layanan":"Skin Booster Biasa tanpa BHP :...",
+    "Harga":"Rp 900.000"
+  },
+  {
+    "Layanan":"Microneedling Biasa tanpa Seru...",
+    "Harga":"Rp 345.000"
+  },
+  {
+    "Layanan":"Microneedling Biasa tanpa Seru...",
+    "Harga":"Rp 431.000"
+  },
+  {
+    "Layanan":"Microneedling Biasa dengan Ser...",
+    "Harga":"Rp 345.000"
+  },
+  {
+    "Layanan":"Microneedling Biasa dengan Ser...",
+    "Harga":"Rp 431.000"
+  },
+  {
+    "Layanan":"Skin Booster Premium : RJ Regu...",
+    "Harga":"Rp 3.252.000"
+  },
+  {
+    "Layanan":"Skin Booster Premium : RJ Ekse...",
+    "Harga":"Rp 4.065.000"
+  },
+  {
+    "Layanan":"Microneedling Premium dengan S...",
+    "Harga":"Rp 2.877.000"
+  },
+  {
+    "Layanan":"Microneedling Premium dengan S...",
+    "Harga":"Rp 3.596.250"
+  },
+  {
+    "Layanan":"Skin Booster Premium tanpa BHP...",
+    "Harga":"Rp 1.920.000"
+  },
+  {
+    "Layanan":"Skin Booster Premium tanpa BHP...",
+    "Harga":"Rp 2.400.000"
+  },
+  {
+    "Layanan":"Microneedling Premium dengan S...",
+    "Harga":"Rp 1.545.000"
+  },
+  {
+    "Layanan":"Microneedling Premium dengan S...",
+    "Harga":"Rp 1.931.000"
+  },
+  {
+    "Layanan":"Hydra Facial Standar Premium :...",
+    "Harga":"Rp 556.000"
+  },
+  {
+    "Layanan":"Hydra Facial Standar Premium :...",
+    "Harga":"Rp 695.000"
+  },
+  {
+    "Layanan":"Hydra Facial Deep Cleansing Bi...",
+    "Harga":"Rp 816.500"
+  },
+  {
+    "Layanan":"Hydra Facial Deep Cleansing Bi...",
+    "Harga":"Rp 10.210.000"
+  },
+  {
+    "Layanan":"Hydra Facial Under Eye\/Lips Bi...",
+    "Harga":"Rp 285.500"
+  },
+  {
+    "Layanan":"Hydra Facial Under Eye\/Lips Bi...",
+    "Harga":"Rp 357.000"
+  },
+  {
+    "Layanan":"Hydra Facial Scalp (persegmen)...",
+    "Harga":"Rp 400.500"
+  },
+  {
+    "Layanan":"Hydra Facial Scalp (persegmen)...",
+    "Harga":"Rp 501.000"
+  },
+  {
+    "Layanan":"Derma Filler (per 1 cc) : RJ R...",
+    "Harga":"Rp 1.632.000"
+  },
+  {
+    "Layanan":"Derma Filler (per 1 cc) : RJ E...",
+    "Harga":"Rp 2.040.000"
+  },
+  {
+    "Layanan":"Hydra Facial Deep Cleansing Bi...",
+    "Harga":"Rp 650.000"
+  },
+  {
+    "Layanan":"Hydra Facial Deep Cleansing Bi...",
+    "Harga":"Rp 813.000"
+  },
+  {
+    "Layanan":"Hydra Facial Under Eye\/Lips Bi...",
+    "Harga":"Rp 230.000"
+  },
+  {
+    "Layanan":"Hydra Facial Under Eye\/Lips Bi...",
+    "Harga":"Rp 288.000"
+  },
+  {
+    "Layanan":"Hydra Facial Scalp (persegmen)...",
+    "Harga":"Rp 345.000"
+  },
+  {
+    "Layanan":"Hydra Facial Scalp (persegmen)...",
+    "Harga":"Rp 431.000"
+  },
+  {
+    "Layanan":"Derma Filler (per 1 cc) tanpa ...",
+    "Harga":"Rp 300.000"
+  },
+  {
+    "Layanan":"Derma Filler (per 1 cc) tanpa ...",
+    "Harga":"Rp 375.000"
+  },
+  {
+    "Layanan":"Hydra Facial Deep Cleansing Pr...",
+    "Harga":"Rp 1.177.500"
+  },
+  {
+    "Layanan":"Hydra Facial Deep Cleansing Pr...",
+    "Harga":"Rp 1.472.000"
+  },
+  {
+    "Layanan":"Hydra Facial Under Eye\/Lips Pr...",
+    "Harga":"Rp 441.000"
+  },
+  {
+    "Layanan":"Hydra Facial Under Eye\/Lips Pr...",
+    "Harga":"Rp 551.000"
+  },
+  {
+    "Layanan":"Hydra Facial Scalp (persegmen)...",
+    "Harga":"Rp 556.000"
+  },
+  {
+    "Layanan":"Hydra Facial Scalp (persegmen)...",
+    "Harga":"Rp 695.000"
+  },
+  {
+    "Layanan":"Hydra Facial Deep Cleansing Pr...",
+    "Harga":"Rp 900.000"
+  },
+  {
+    "Layanan":"Hydra Facial Deep Cleansing Pr...",
+    "Harga":"Rp 1.125.000"
+  },
+  {
+    "Layanan":"Hydra Facial Under Eye\/Lips Pr...",
+    "Harga":"Rp 330.000"
+  },
+  {
+    "Layanan":"Hydra Facial Under Eye\/Lips Pr...",
+    "Harga":"Rp 413.000"
+  },
+  {
+    "Layanan":"Hydra Facial Scalp (persegmen)...",
+    "Harga":"Rp 445.000"
+  },
+  {
+    "Layanan":"Hydra Facial Scalp (persegmen)...",
+    "Harga":"Rp 556.000"
+  },
+  {
+    "Layanan":"Eksisi Lesi Kulit : RJ Reguler",
+    "Harga":"Rp 1.750.000"
+  },
+  {
+    "Layanan":"Eksisi Lesi Kulit : RJ Eksekut...",
+    "Harga":"Rp 2.187.500"
+  }
+]
