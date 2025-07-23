@@ -15,16 +15,9 @@ use Exception;
 
 class ChatController extends Controller
 {
-    private function extractKeywords(string $question, string $topic): array
+    private function cleanText(string $text, string $topic): string
     {
-        $cleanQuestion = preg_replace('/[^\w\s]/u', '', mb_strtolower($question));
-
-        // Load topic-specific stopwords from config
-        $stopWords = config("alias.stopwords.{$topic}", [
-            'apa', 'itu', 'adalah', 'dan', 'di', 'ke', 'dari',
-            'yang', 'untuk', 'atau', 'bisa', 'sih', 'ya',
-        ]);
-
+        $text = mb_strtolower($text);
         $patterns = [
             '/^(apa\s*(itu|sih|ya)?\s*)/u',
             '/^(bisa\s*(dijelaskan|jelaskan|kasih\s*tau)?\s*)/u',
@@ -35,44 +28,36 @@ class ChatController extends Controller
             '/^(aku\s*(pengen|mau|ingin)\s*tahu\s*)/u',
             '/^([a-z0-9\s]+)\s+(adalah|itu|ya)\s*\??\s*$/u',
         ];
+        foreach ($patterns as $pattern) {
+            $text = preg_replace($pattern, '', $text);
+        }
+        $stopWords = config("alias.stopwords.{$topic}", [
+            'apa', 'itu', 'adalah', 'dan', 'di', 'ke', 'dari',
+            'yang', 'untuk', 'atau', 'bisa', 'sih', 'ya',
+        ]);
+        $words = explode(' ', preg_replace('/[^\w\s]/u', '', $text));
+        $filtered = array_filter($words, fn($w) => !in_array($w, $stopWords) && strlen($w) > 2);
+        return implode(' ', $filtered);
+    }
 
-        $cleanQuestion = preg_replace($patterns, '', $cleanQuestion);
-
-        $keywords = array_filter(
-            explode(' ', $cleanQuestion),
-            fn($word) => !in_array($word, $stopWords) && strlen($word) > 2
-        );
-
-        return array_unique($keywords);
+    private function extractKeywords(string $question, string $topic): array
+    {
+        $cleaned = $this->cleanText($question, $topic);
+        return array_unique(explode(' ', $cleaned));
     }
 
     private function matchEntitiesFromInput(string $input, string $topic): array
     {
         $entityMap = config("alias.map.{$topic}", []);
-        
-        if (!is_array($entityMap)) {
-            Log::warning('Invalid entityMap configuration', ['topic' => $topic, 'entityMap' => $entityMap]);
-            return [];
-        }
-
-        if (empty($entityMap)) {
-            return [];
-        }
-
-        $input = mb_strtolower($input);
+        if (!is_array($entityMap) || empty($entityMap)) return [];
+        $input = $this->cleanText($input, $topic);
         $matchedEntities = [];
-
         foreach ($entityMap as $canonical => $aliases) {
-            if (!is_array($aliases)) {
-                Log::warning('Invalid aliases for canonical term', ['topic' => $topic, 'canonical' => $canonical, 'aliases' => $aliases]);
-                continue;
-            }
-
+            if (!is_array($aliases)) continue;
             if (preg_match('/\b' . preg_quote($canonical, '/') . '\b/ui', $input)) {
                 $matchedEntities[] = $canonical;
                 continue;
             }
-
             foreach ($aliases as $alias) {
                 if (preg_match('/\b' . preg_quote($alias, '/') . '\b/ui', $input)) {
                     $matchedEntities[] = $canonical;
@@ -80,7 +65,6 @@ class ChatController extends Controller
                 }
             }
         }
-
         return array_unique($matchedEntities);
     }
 
@@ -226,28 +210,25 @@ class ChatController extends Controller
 
             foreach ($entries as $item) {
                 $found = false;
-                $cleanQuestion = mb_strtolower(trim(strip_tags($item->question)));
-                $dbKeywords = $this->extractKeywords($cleanQuestion, $topic);
-
+                $cleanQuestion = $this->cleanText($item->question, $topic);
+                $dbKeywords = explode(' ', $cleanQuestion);
                 switch ($item->match_type) {
                     case 'exact':
-                        $found = strcasecmp($cleanQuestion, $userMessage) === 0;
+                        $found = $cleanQuestion === $this->cleanText($userMessage, $topic);
                         break;
-
                     case 'contains':
                         if (empty($dbKeywords)) {
-                            $found = mb_stripos($userMessage, $cleanQuestion) !== false;
+                            $found = mb_stripos($this->cleanText($userMessage, $topic), $cleanQuestion) !== false;
                         } else {
+                            $userKeywords = explode(' ', $this->cleanText($userMessage, $topic));
                             $similarity = $this->calculateSimilarity($dbKeywords, $userKeywords);
-                            $found = $similarity > 0.7;
+                            $found = $similarity > 0.6; // Lower threshold for more comfort
                         }
                         break;
-
                     case 'regex':
                         $found = @preg_match($item->question, $userMessage) === 1;
                         break;
                 }
-
                 if ($found) {
                     $matchedResponses[] = $item->answer;
                 }

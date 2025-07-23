@@ -100,12 +100,12 @@
     // ---- Suggestions ----
     const questionSuggestions = {
       faq: [
+        "Bagaimana cara pendaftaran online?",
+        "Bagaimana cara pendaftaran offline?",
         "Mengapa kami Selalu Terdepan?",
         "Bagaimana Alur Pendaftaran?",
         "Bagaimana dengan biaya perawatan pasien?",
         "Bagaimana Jika ada kesulitan dalam mendapatkan Layanan Kesehatan?",
-        "Bagaimana cara pendaftaran online?",
-        "Bagaimana cara pendaftaran offline?",
       ],
       layanan: [
         "Apa itu Medical Checkup?",
@@ -122,10 +122,11 @@
         "Apa itu Endoskopi?"
       ],
       general: [
-        "Jam operasional rumah sakit Dr.Soepraoen TK II",
-        "Jeanette rumah sakit Dr.Soepraoen TK II",
-        "Nomor telepon darurat Dr.Soepraoen TK II",
-        "Cara membuat janji temu Dr.Soepraoen TK II"
+        "Jam operasional rumah sakit Dr.Soepraoen TK II?",
+        "Apa saja layanan rumah sakit Dr.Soepraoen TK II?",
+        "Nomor telepon darurat Dr.Soepraoen TK II?",
+        "Cara membuat janji temu Dr.Soepraoen TK II?",
+        "Sejarah Rumah Sakit TK.II dr.Soepraoen",
       ],
       rawat_jalan: [
         'Jadwal Dokter Poliklinik Penyakit Dalam',
@@ -279,18 +280,16 @@
         const aiMsg = document.createElement('div');
         aiMsg.className = 'text-left';
         let html;
-if (/<[a-z][\s\S]*>/i.test(data.reply)) {
-  // Contains HTML tags, treat as HTML
-  html = DOMPurify.sanitize(data.reply, {ADD_ATTR: ['style', 'class']});
-} else {
-  // Treat as Markdown
-  html = DOMPurify.sanitize(marked.parse(data.reply), {ADD_ATTR: ['style', 'class']});
-}
-aiMsg.innerHTML = `
-          <div class="bg-gray-200 px-4 py-2 rounded-lg">
-            ${html}
-            <div class="text-xs text-gray-500">${data.source}</div>
-          </div>`;
+    if (/<[a-z][\s\S]*>/i.test(data.reply)) {
+      html = DOMPurify.sanitize(data.reply, {ADD_ATTR: ['style', 'class']});
+    } else {
+      html = DOMPurify.sanitize(marked.parse(data.reply), {ADD_ATTR: ['style', 'class']});
+    }
+    aiMsg.innerHTML = `
+      <div class="bg-gray-200 px-4 py-2 rounded-lg">
+        ${html}
+        <div class="text-xs text-gray-500">${data.source}</div>
+      </div>`;
         chatHistory.appendChild(aiMsg);
         chatHistory.scrollTop = chatHistory.scrollHeight;
         if (window.MathJax) MathJax.typesetPromise([aiMsg]);
@@ -328,12 +327,17 @@ aiMsg.innerHTML = `
           // AI response
           const aiMsg = document.createElement('div');
           aiMsg.className = 'text-left';
-          let html = DOMPurify.sanitize(marked.parse(item.ai_reply), {ADD_ATTR: ['style', 'class']});
-          aiMsg.innerHTML = `
-            <div class="bg-gray-200 px-4 py-2 rounded-lg">
-              ${html}
-              <div class="text-xs text-gray-500">${item.source}</div>
-            </div>`;
+          let html;
+      if (/<[a-z][\s\S]*>/i.test(item.ai_reply)) {
+        html = DOMPurify.sanitize(item.ai_reply, {ADD_ATTR: ['style', 'class']});
+      } else {
+        html = DOMPurify.sanitize(marked.parse(item.ai_reply), {ADD_ATTR: ['style', 'class']});
+      }
+      aiMsg.innerHTML = `
+        <div class="bg-gray-200 px-4 py-2 rounded-lg">
+          ${html}
+          <div class="text-xs text-gray-500">${item.source}</div>
+        </div>`;
           chatHistory.appendChild(aiMsg);
           if (window.MathJax) MathJax.typesetPromise([aiMsg]);
         });
