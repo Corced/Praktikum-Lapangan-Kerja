@@ -40,5 +40,16 @@ Masyarakat umum dapat memakai Jaminan Kesehatan Nasional (JKN), Jasa Raharja, at
             'answer' => '<br><p>Jangan khawatir jika anda memiliki pertanyaan atau keluhan layanan kami, untuk informasi lebih lanjut silahkan menghubungi petugas <a href="https://www.rssoepraoen.co.id/contact/whatsapp">Disini</a></p></br>',
             'match_type' => 'contains',
         ]);
+        Faq::create([
+            'question' => 'Bagaimana cara pendaftaran offline?',
+            'answer' => '<br><p>Untuk pendaftaran pasien secara offline<br><img href="/pendaftaran-offline.png"></br></p></br>',
+            'match_type' => 'contains',
+        ]);
+        Faq::create([
+            'question' => 'Bagaimana cara pendaftaran online?',
+            'answer' => '<div class="w-1/2 flex flex-col justify-center items-center"><img alt="epasien" srcset="/pasienbpjs.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fassets%2Fqr-jkn.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fqr-jkn.png&amp;w=640&amp;q=75" width="200" height="0" decoding="async" data-nimg="1" loading="lazy" style="color: transparent;"><a class="bg-blue-900 text-white px-5 py-2 rounded-md mt-5" href="https://play.google.com/store/apps/details?id=app.bpjs.mobile&amp;hl=id&amp;gl=US&amp;pli=1">Pendaftaran Online ( Pasien BPJS - Mobile JKN )</a></div>
+<div class="w-1/2 flex flex-col justify-center items-center"><img alt="epasien" srcset="/_next/image?url=%2Fassets%2Fqr-halo-soepraoen.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fassets%2Fqr-halo-soepraoen.png&amp;w=640&amp;q=75 2x" src="/pasienswasta.png&amp;w=640&amp;q=75" width="200" height="0" decoding="async" data-nimg="1" loading="lazy" style="color: transparent;"><a class="bg-blue-900 text-white px-5 py-2 rounded-md mt-5" href="https://play.google.com/store/apps/details?id=com.rstds.halosoepraoen&amp;pcampaignid=web_share">Pendaftaran Online ( Pasien Swasta - Halo Soepraoen )</a></div>',
+            'match_type' => 'contains',
+        ]);
     }
 }

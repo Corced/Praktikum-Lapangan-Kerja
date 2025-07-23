@@ -164,11 +164,22 @@ class ChatController extends Controller
         $message = $request->input('message');
         $topic = strtolower(str_replace(' ', '_', $request->input('topic', 'faq')));
         $customPrompt = $request->input('prompt');
-        $userId = $request->session()->getId(); // Unique session ID for user
+
+        // FIX: Add this line to define $userId
+        $userId = $request->session()->getId();
 
         if (empty($message)) {
             return response()->json(['reply' => 'Please provide a message'], 400);
         }
+
+        // Retrieve chat history from session
+        $history = session()->get('chat_history', []);
+        $history[] = ['role' => 'user', 'content' => $message];
+
+        // Limit history length (e.g., last 10 messages)
+        $history = array_slice($history, -10);
+
+        session()->put('chat_history', $history);
 
         // Initialize or retrieve chat history from cache
         $cacheKey = "chat_history_{$userId}_{$topic}";
@@ -254,8 +265,13 @@ class ChatController extends Controller
             Log::info('Unmatched query', ['topic' => $topic, 'message' => $message]);
 
             // Fallback to LLM
-            $prompt = ($customPrompt ?: "Anda adalah asisten perawatan kesehatan yang berspesialisasi dalam {$topic}. 
-            Memberikan informasi yang akurat dan ringkas.") . "\nRelevant entities: " . implode(', ', $matchedEntities) . "\nQ: {$message}\nA:";
+            // Build context from history
+            $context = '';
+            foreach ($history as $entry) {
+                $context .= ($entry['role'] === 'user' ? "User: " : "AI: ") . $entry['content'] . "\n";
+            }
+
+            $prompt = ($customPrompt ?: "Anda adalah asisten perawatan kesehatan yang berspesialisasi dalam {$topic}. Memberikan informasi yang akurat dan ringkas.") . "\nChat history:\n{$context}\nQ: {$message}\nA:";
 
             $apiKey = env('GEMINI_API_KEY');
             if (empty($apiKey)) {
@@ -277,10 +293,14 @@ class ChatController extends Controller
             }
 
             $reply = $result['data']['candidates'][0]['content']['parts'][0]['text'] ?? 'No reply available';
-            $responseData = [
+
+            $history[] = ['role' => 'ai', 'content' => $reply];
+            session()->put('chat_history', $history);
+
+            return response()->json([
                 'reply' => $reply,
                 'source' => 'LLM',
-            ];
+            ]);
         }
 
         // Store in cache
