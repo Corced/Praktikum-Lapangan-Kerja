@@ -74,7 +74,7 @@
         </div>
       </div>
       <!-- Tutorial Modal -->
-      <div id="tutorialModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+      <div id="tutorialModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 ">
         <div class="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
           <h2 class="text-xl font-bold mb-4">Cara Menggunakan AI Chat Assistant</h2>
           <p class="mb-2">1. <strong>Pilih Topik</strong>: Gunakan menu dropdown untuk memilih topik (misalnya, FAQ, Medical Checkup) untuk mendapatkan saran yang relevan.</p>
